@@ -1,11 +1,12 @@
-import './App.css'
-import ContentPrincipal from './components/ContentPrincipal.jsx'
+import "./App.css";
+import Principal from "./view/Principal.jsx";
 
 function App() {
-
   return (
-    <ContentPrincipal />
-  )
+    <>
+      <Principal />
+    </>
+  );
 }
 
-export default App
+export default App;
