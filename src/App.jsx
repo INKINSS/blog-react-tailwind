@@ -1,9 +1,10 @@
 import './App.css'
+import ContentPrincipal from './components/ContentPrincipal.jsx'
 
 function App() {
 
   return (
-    <h1>proyecto iniciado</h1>
+    <ContentPrincipal />
   )
 }
 
