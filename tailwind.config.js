@@ -9,7 +9,8 @@ export default {
       colors: {
         blueDark: 'hsl(194,53,12)',
         colorText: 'hsl(0,0,40)',
-        colorGray: 'hsl(0,0,13)'
+        colorGray: 'hsl(0,0,13)',
+        whiteLight: 'hsl(0,0,96)'
       }
     },
   },

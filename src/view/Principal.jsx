@@ -1,7 +1,10 @@
 import React from "react";
 import Welcome from "../components/Welcome";
-import Section from "../components/Section";
+import Section from "../components/Collaborate";
 import { MdMenu } from "react-icons/md";
+import Collaborate from "../components/Collaborate";
+import Discover from "../components/Discover";
+import Footer from "../components/Footer";
 
 const Principal = () => {
   return (
@@ -10,23 +13,9 @@ const Principal = () => {
         <MdMenu size={"3em"} fill="blueDark" className="m-3" />
       </div>
       <Welcome />
-      <Section
-        title="colabora"
-        background="blueDark"
-        colorTitle="white"
-        content="Construye un artículo basado en tu tema de interés, elaborando un contenido detallado y bien organizado que explore diversos aspectos y perspectivas del tema. Utiliza ejemplos, datos relevantes y recursos visuales para enriquecer la comprensión del lector."
-        colorContent="white"
-        contentButton="colabora"
-        colorButton="white"
-      />
-      <Section
-        title="descubre"
-        background="white"
-        colorTitle="blueDark"
-        content="Descubre temas de tu interés explorando filtros y categorías que faciliten la búsqueda y navegación, permitiéndote encontrar información relevante de manera eficiente y precisa."
-        contentButton="descubre"
-        colorButton="black"
-      />
+      <Collaborate />
+      <Discover />
+      <Footer />
     </>
   );
 };
